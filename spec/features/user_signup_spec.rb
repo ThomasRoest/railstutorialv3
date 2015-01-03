@@ -12,6 +12,7 @@ describe "Sign up" do
 			click_button "Create my account"
 		}.not_to change(User, :count)
 		expect(page).to have_content('Sign up')
+		expect(page).to have_selector("#error_explanation")
 	end
 
 	scenario "With valid attributes" do 
