@@ -14,6 +14,7 @@ gem 'sdoc',                 '0.4.0', group: :doc
 group :development, :test do
   gem 'sqlite3',     '1.3.9'
   gem 'byebug',      '3.4.0'
+  #usefull debugger, example in users controller
   gem 'spring',      '1.1.3'
   gem "rspec-rails", "~> 3.1.0"
   gem "factory_girl_rails", "~> 4.4.1"
