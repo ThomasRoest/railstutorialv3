@@ -8,5 +8,6 @@ feature 'static pages' do
 		expect(page).to have_content('Contact')
 		click_link 'About'
 		expect(page).to have_content('About')
+		expect(page).to have_title('About')
 	end
 end
